@@ -5,7 +5,7 @@ import time
 import pyautogui as auto 
 
 # Pause the script for 5 seconds to allow the user to prepare (e.g., switch to the target window)
-time.sleep(5)
+time.sleep(2)
 
 # Open the file 'theText.txt' in read mode
 with open('theText.txt', 'r') as theFile:
